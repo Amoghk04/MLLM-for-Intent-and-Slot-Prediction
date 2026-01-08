@@ -130,8 +130,8 @@ The focus is **deployment, inference, and evaluation**, not retraining.
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-org>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/Amoghk04/MLLM-for-Intent-and-Slot-Prediction.git
+cd MLLM-for-Intent-and-Slot-Prediction
 ```
 
 ### 2. Install dependencies
@@ -141,12 +141,12 @@ pip install -r requirements.txt
 
 ### 3. Run the web app
 ```bash
-python app.py
+streamlit run app.py
 ```
 
 Access the interface at:
 ```
-http://localhost:5000
+http://localhost:8080
 ```
 
 ---
